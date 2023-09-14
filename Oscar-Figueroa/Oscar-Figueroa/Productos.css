@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.card{
+    padding: 200px;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body {
+    background-image: url(./Img/pc-fondo.png);
+    background-position: auto;
+    background-size: auto;
+}
+
+.carta {
+    width: 350px;
+    height: 540px;
+    background-color: #d4cecec8;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 8px 8px rgba(16, 69, 244, 0.938);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    min-width: 200px;
+    transition: transform 0.5s ease;
+}
+.img1{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.img2 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.img3{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.img4 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+} 
+.parrafo{
+    padding: 40px;
+    font-size: 1.2em;
+    font-style: initial;
+    color: rgb(20, 77, 220);
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.carta button {
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #1c73edd7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.carta:hover {
+    transform: translateY(-10px);}
+    header {
+        width: 100%;
+        position: fixed;
+        background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+        background-color: rgba(155, 95, 250, 0.74);
+    }
+    .container {
+        width: 100vh;
+        height: 100px;
+    }
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    header nav{
+        display: flex;
+        text-align: right;
+        flex-direction: row;  
+        padding-bottom: 0;
+        padding-right: 0px;
+    }
+header a{
+        font-size: 1.3em;
+        padding: 25px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(216, 213, 213);
+    }
+hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100vh;
+        color: white;}
+header .logo{
+        font-size: 3.5em;
+        margin: 20px 5px;
+        color: white;
+        
+    }
