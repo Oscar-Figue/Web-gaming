@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h1{
+color: rgba(247, 247, 247, 0.863);
+font-size: 4.5em ;
+font-family: 'Aerodynamic', sans-serif;
+                                                
+
+}
+h2 {
+font-size: 3.7em;
+font-family: 'Belanosima', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+p {
+font-size: 1.25em;
+font-family: 'Belanosima', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold; 
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+}
+button:hover{
+    background-color: rgba(100, 148, 237, 0.685);
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Img/andy-holmes-EOAKUQcsFIU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
